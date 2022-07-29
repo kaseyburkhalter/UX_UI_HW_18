@@ -1,0 +1,119 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.topnav {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  padding: 50px;
+  margin: 15px;
+}
+
+img {
+  max-width: 90%;
+  height: auto;
+  margin: 10px 30px 20px 20px;
+}
+
+h1 h2 h3 { 
+  font-family: "Noto Serif", serif;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 2.5em;
+  /* font-size: 40px; */
+  font-family: "Noto Serif", Arial, serif;
+  text-align: center;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  font-size: 16px;
+  font-family: "poppins.ttf", Arial, sans-serif;
+}
+
+body {
+  font: normal 300 0.8em "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+ul {
+  text-align: right;
+  width: 100%;
+  background-color: #999;
+  height: 20px;
+}
+li {
+  display: inline;
+}
+ul a {
+  color: white;
+  padding: 0 10px;
+  text-decoration: none;
+}
+ul a:hover {
+  color: #333;
+}
+
+.parentContainer {
+  display: flex;
+  margin: auto;
+  padding: 5px;
+}
+
+.flexChild {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 0px 60px 60px 60px;
+  height: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  height: 800px;
+  padding: 50px;
+  margin: 15px;
+  background-color: pink;
+}
+
+.top1 {
+  height: auto;
+  background-color: blue;
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr ;
+grid-template-areas: 
+" afrf carMd aboutMecard";
+
+}
+
+.carMd {
+
+  grid-area: carMd;
+
+}
+
+.afrf {
+
+  grid-area: afrf;
+
+}
+
+.aboutMecard {
+
+  grid-area: aboutMecard;
+
+}
